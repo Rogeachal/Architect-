@@ -11,7 +11,6 @@ body {
     height: 100vh;
     width: 100vw;
     color: #fff;
-    /* background:linear-gradient(135deg,#000,#444,#111); */
     background: url(./background.jpg ) no-repeat center/cover  ;
     
 }
@@ -31,9 +30,8 @@ form input {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #555;
+    border: 1px solid #494949;
     border-radius: 5px;
-    outline: none;
 }
 form button {
     width: 100%;
@@ -44,22 +42,11 @@ form button {
     color: #111;
     font-size: 16px;
     font-weight: bold;
-    cursor: pointer;
     margin-top: 12px;
 }
-form button:hover {
-    background:linear-gradient(135deg,#eee,#9a9898)
-}
-form p {
-    margin-top: 15px;
-    font-size: 14px;
-    color: #8e8c8c;
-}
-form a {
-    color: #fff;
-    text-decoration: none;
+form a{ 
+    color: #f2f1f1;
     font-weight: bold;
+    border:  1px #111;
 }
-form a:hover {
-    text-decoration: underline;
-}
+
