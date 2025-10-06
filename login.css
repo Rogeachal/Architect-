@@ -14,6 +14,7 @@ body {
     background: url(./background.jpg ) no-repeat center/cover  ;
     
 }
+/* main container box  */
 .form-container {
     background:linear-gradient(145deg,#2a2a2a,#1a1a1a);
     padding:20px;
@@ -26,6 +27,7 @@ body {
     margin-bottom: 20px;
     color: #fff;
 }
+/* input section  */
 form input {
     width: 100%;
     padding: 10px;
@@ -33,6 +35,7 @@ form input {
     border: 1px solid #494949;
     border-radius: 5px;
 }
+/* button section  */
 form button {
     width: 100%;
     padding: 10px;
